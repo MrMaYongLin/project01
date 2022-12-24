@@ -13,7 +13,7 @@ class no_payload():
 
 class have_payload():
     urlu1 = 'http://www.wanandroid.com'
-    payload = {'k':'win'}
+    payload = {'k': 'win'}
     r2 = requests.get(url=urlu1,params=payload)
     print(r2.status_code)
     print(r2.headers)
