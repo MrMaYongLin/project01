@@ -12,4 +12,5 @@ class post_req:
         #如果不进行转化json，那么在进行post请求的时候需要将data换成json。这个时候python如会自动将字典参数改成json参数下：
         #resp = requests.post(url=url1,json=payload)
         print(resp.text)
+        resp.content
 post_req.pos()
